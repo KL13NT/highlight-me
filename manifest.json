@@ -1,17 +1,25 @@
 {
 	"manifest_version": 2,
 	"name": "highlight-me",
-	"version": "0.0.1",
-  "license": "GPL-3.0-only",
+	"version": "0.0.2",
+	"license": "GPL-3.0-only",
 	"description": "An extremely simple and minimal text highlighting tool.",
-	"permissions": ["contextMenus"],
+	"permissions": [
+		"contextMenus"
+	],
 	"background": {
-		"scripts": ["background.js"]
+		"scripts": [
+			"background.js"
+		]
 	},
 	"content_scripts": [
 		{
-			"matches": ["*://*/*"],
-			"js": ["content.js"]
+			"matches": [
+				"*://*/*"
+			],
+			"js": [
+				"content.js"
+			]
 		}
 	]
 }

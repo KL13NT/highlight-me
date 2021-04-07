@@ -1,14 +1,14 @@
 {
 	"name": "highlight-me",
 	"description": "An extremely simple and minimal text highlighting tool.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
 		"dev": "web-ext run --start-url about:debugging#/runtime/this-firefox --start-url about:addons",
 		"build": "web-ext build --overwrite-dest",
-		"sign": "env-cmd web-ext sign",
-    "postversion": "node bump.js"
+		"sign": "env-cmd web-ext sign --channel listed",
+		"postversion": "node bump.js"
 	},
 	"devDependencies": {
 		"web-ext": "^6.0.0"
