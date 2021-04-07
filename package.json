@@ -1,7 +1,7 @@
 {
 	"name": "highlight-me",
 	"description": "An extremely simple and minimal text highlighting tool.",
-	"version": "0.0.2",
+	"version": "1.0.0",
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
